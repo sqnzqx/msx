@@ -1,0 +1,20 @@
+{
+  "type": "pages",
+  "headline": "МОЁ КИНО",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,2,1"
+  },
+  "items": [
+    {
+      "type": "default",
+      "label": "VoKINO",
+      "action": "content:https://web.vokino.pro"
+    },
+    {
+      "type": "default",
+      "label": "ZONA",
+      "action": "content:https://msx.zona.ms"
+    }
+  ]
+}
