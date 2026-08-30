@@ -4,12 +4,10 @@
   "menu": [
     {
       "label": "VoKINO",
-      "icon": "movie",
-      "action": "link:http://web.vokino.pro/"
+      "action": "link: http://web.vokino.pro/"
     },
     {
       "label": "ZONA",
-      "icon": "movie",
       "action": "link:https://msx.zona.ms"
     }
   ]
