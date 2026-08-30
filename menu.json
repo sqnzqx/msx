@@ -1,19 +1,16 @@
 {
+  "type": "list",
   "headline": "МОЁ КИНО",
   "menu": [
     {
       "label": "VoKINO",
       "icon": "movie",
-      "data": {
-        "action": "link:https://web.vokino.pro/"
-      }
+      "action": "link:http://web.vokino.pro/"
     },
     {
       "label": "ZONA",
       "icon": "movie",
-      "data": {
-        "action": "link:https://msx.zona.ms/"
-      }
+      "action": "link:https://msx.zona.ms"
     }
   ]
 }
