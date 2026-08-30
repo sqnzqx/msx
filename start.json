@@ -1,5 +1,5 @@
 {
   "name": "Моё кино",
-  "version": "1.0.0",
-  "parameter": "menu:request:interaction:init@https://sqnzqx.github.io/msx/menu.json"
+  "version": "1.0.1",
+  "parameter": "menu:https://sqnzqx.github.io/msx/menu.json"
 }
