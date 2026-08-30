@@ -1,14 +1,41 @@
 {
-  "type": "list",
   "headline": "МОЁ КИНО",
   "menu": [
     {
       "label": "VoKINO",
-      "action": "link: http://web.vokino.pro/"
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "default",
+                "layout": "0,0,12,6",
+                "headline": "VoKINO",
+                "text": "Нажмите OK для запуска",
+                "action": "link:http://web.vokino.pro/"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "label": "ZONA",
-      "action": "link:https://msx.zona.ms"
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "default",
+                "layout": "0,0,12,6",
+                "headline": "ZONA",
+                "text": "Нажмите OK для запуска",
+                "action": "link:https://msx.zona.ms"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
