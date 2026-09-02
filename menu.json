@@ -9,7 +9,7 @@
           "id": "vokino",
           "type": "default",
           "layout": "2,4,3,1",
-          "offset": "0.15,0.72,0.15,-0.92",
+          "offset": "-0.15,0.72,0.45,-0.92",
           "round": false,
           "color": "transparent",
           "headline": "",
