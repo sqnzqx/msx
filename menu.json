@@ -1,27 +1,26 @@
 {
-  "name": "HOME CINEMA",
-  "version": "2.0.0",
   "type": "pages",
-  "transparent": true,
   "background": "https://sqnzqx.github.io/msx/home-cinema.png",
-  "extension": "{now:date:D, M d, yyyy}   {now:time:hh:mm}",
+  "transparent": true,
   "pages": [
     {
       "items": [
         {
           "id": "vokino",
-          "type": "button",
-          "layout": "0.7,2.5,5.1,2.6",
+          "type": "default",
+          "layout": "1.1,2.25,4.8,3.1",
           "color": "transparent",
-          "label": "VoKINO",
+          "headline": "",
+          "text": "",
           "action": "link:http://web.vokino.pro/"
         },
         {
           "id": "zona",
-          "type": "button",
-          "layout": "6.2,2.5,5.1,2.6",
+          "type": "default",
+          "layout": "6.1,2.25,4.8,3.1",
           "color": "transparent",
-          "label": "ZONA",
+          "headline": "",
+          "text": "",
           "action": "link:https://msx.zona.ms"
         }
       ]
