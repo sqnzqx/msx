@@ -1,5 +1,5 @@
 {
-  "name": "Моё кино",
-  "version": "1.0.1",
-  "parameter": "menu:https://sqnzqx.github.io/msx/menu.json"
+  "name": "HOME CINEMA",
+  "version": "2.0.0",
+  "parameter": "content:https://sqnzqx.github.io/msx/menu.json"
 }
