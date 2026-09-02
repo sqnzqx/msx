@@ -1,5 +1,8 @@
 {
-  "headline": "МОЁ КИНО",
+  "headline": "HOME CINEMA",
+  "background": "https://sqnzqx.github.io/msx/home-cinema.png",
+  "transparent": true,
+  "extension": "{now:date:D, M d, yyyy}   {now:time:hh:mm}",
   "menu": [
     {
       "label": "VoKINO",
@@ -11,7 +14,8 @@
                 "type": "default",
                 "layout": "0,0,12,6",
                 "headline": "VoKINO",
-                "text": "Нажмите OK для запуска",
+                "text": "Фильмы и сериалы{br}{br}Нажмите OK для запуска",
+                "color": "msx-glass",
                 "action": "link:http://web.vokino.pro/"
               }
             ]
@@ -29,7 +33,8 @@
                 "type": "default",
                 "layout": "0,0,12,6",
                 "headline": "ZONA",
-                "text": "Нажмите OK для запуска",
+                "text": "Фильмы, сериалы и ТВ{br}{br}Нажмите OK для запуска",
+                "color": "msx-glass",
                 "action": "link:https://msx.zona.ms"
               }
             ]
