@@ -1,46 +1,30 @@
 {
-  "headline": "HOME CINEMA",
-  "background": "https://sqnzqx.github.io/msx/home-cinema.png",
+  "name": "HOME CINEMA",
+  "version": "2.0.0",
+  "type": "pages",
   "transparent": true,
+  "background": "https://sqnzqx.github.io/msx/home-cinema.png",
   "extension": "{now:date:D, M d, yyyy}   {now:time:hh:mm}",
-  "menu": [
+  "pages": [
     {
-      "label": "VoKINO",
-      "data": {
-        "pages": [
-          {
-            "items": [
-              {
-                "type": "default",
-                "layout": "0,0,12,6",
-                "headline": "VoKINO",
-                "text": "Фильмы и сериалы{br}{br}Нажмите OK для запуска",
-                "color": "msx-glass",
-                "action": "link:http://web.vokino.pro/"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "label": "ZONA",
-      "data": {
-        "pages": [
-          {
-            "items": [
-              {
-                "type": "default",
-                "layout": "0,0,12,6",
-                "headline": "ZONA",
-                "text": "Фильмы, сериалы и ТВ{br}{br}Нажмите OK для запуска",
-                "color": "msx-glass",
-                "action": "link:https://msx.zona.ms"
-              }
-            ]
-          }
-        ]
-      }
+      "items": [
+        {
+          "id": "vokino",
+          "type": "button",
+          "layout": "0.7,2.5,5.1,2.6",
+          "color": "transparent",
+          "label": "VoKINO",
+          "action": "link:http://web.vokino.pro/"
+        },
+        {
+          "id": "zona",
+          "type": "button",
+          "layout": "6.2,2.5,5.1,2.6",
+          "color": "transparent",
+          "label": "ZONA",
+          "action": "link:https://msx.zona.ms"
+        }
+      ]
     }
   ]
 }
