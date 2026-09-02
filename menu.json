@@ -8,7 +8,7 @@
         {
           "id": "vokino",
           "type": "default",
-          "layout": "1.1,2.25,4.8,3.1",
+          "layout": "0.65,2.05,4.95,3.35",
           "color": "transparent",
           "headline": "",
           "text": "",
@@ -17,7 +17,7 @@
         {
           "id": "zona",
           "type": "default",
-          "layout": "6.1,2.25,4.8,3.1",
+          "layout": "5.85,2.05,5.50,3.35",
           "color": "transparent",
           "headline": "",
           "text": "",
